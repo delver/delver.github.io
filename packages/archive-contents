@@ -1,8 +1,9 @@
 (1
  (thom-clojure .
-	[(2)
-	 ((cider
-	   (0 6 0))
-	  (paredit
-	   (22)))
-	 "Thom's clojure config" single]))
+	       [(3)
+		((cider
+		  (0 6 0))
+		 (paredit
+		  (22)))
+		"Thom's clojure config" single]))
+
