@@ -3,14 +3,17 @@
 
 ;; Author: Thom Lawrence <thom@delver.io>
 ;; Maintainer: Thom Lawrence <thom@delver.io>
-;; URL: http://github.com/delver/delver.github.io/packages/thom-clojure-1.el
+;; URL: http://github.com/delver/delver.github.io/packages/thom-clojure-2.el
 ;; Created: 30th September 2014
-;; Version: 1
+;; Version: 2
 ;; Keywords: lisp
 ;; Package-Requires: ((cider (0 6 0)(paredit (22))
 
 ;;; Code:
 
+(require 'clojure-mode)
+
+;;;###autoload
 (add-hook 'clojure-mode-hook 'paredit-mode)
 
 ;;; thom-clojure.el ends here
