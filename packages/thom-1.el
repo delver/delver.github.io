@@ -11,10 +11,9 @@
 
 ;;; Code:
 
-
 ;;;###autoload
 (progn
-  (inhibit-startup-screen t)
+  (setq inhibit-startup-screen t)
   (setq backup-inhibited t)
   (setq auto-save-default nil)
   (global-linum-mode 1)
