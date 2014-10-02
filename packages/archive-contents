@@ -1,6 +1,6 @@
 (1
  (thom .
-       [(4)
+       [(5)
 	((thom-ido
 	  (1))
 	 (thom-mac
