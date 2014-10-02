@@ -5,7 +5,7 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom.el
 ;; Created: 30th September 2014
-;; Version: 5
+;; Version: 6
 ;; Keywords: lisp
 ;; Package-Requires: ((thom-ido "1")(thom-mac "1")(thom-text "1")(thom-clojure "3"))
 
@@ -20,11 +20,11 @@
   (setq linum-format "%d ")
   (column-number-mode t)
   (setq-default truncate-lines t)
+  (setq-default indicate-empty-lines t)
   (set-frame-parameter nil 'right-fringe 5)
   (set-frame-parameter nil 'left-fringe 0)
   (menu-bar-mode -1)
   (scroll-bar-mode -1)
-  (setq indicate-empty-lines t)
   (tool-bar-mode -1)
   (set-face-attribute 'default nil :height 100))
 
