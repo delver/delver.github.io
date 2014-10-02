@@ -5,5 +5,29 @@
 		  (0 6 0))
 		 (paredit
 		  (22)))
-		"Thom's clojure config" single]))
+		"Thom's emacs config for clojure" single])
+ (thom-mac .
+	   [(1)
+	    nil "Thom's emacs config for Macs" single])
+ (thom-ido .
+	   [(1)
+	    ((smex
+	      (3 0)))
+	    "Thom's emacs config for ido" single])
+ (thom-text .
+	    [(1)
+	     ((wc-mode
+	       (1 3)))
+	     "Thom's emacs config for plain text" single])
+ (thom .
+       [(1)
+	((thom-ido
+	  (1))
+	 (thom-mac
+	  (1))
+	 (thom-text
+	  (1))
+	 (thom-clojure
+	  (3)))
+	"Thom's emacs config" single]))
 
