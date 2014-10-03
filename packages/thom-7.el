@@ -5,9 +5,9 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom.el
 ;; Created: 30th September 2014
-;; Version: 6
+;; Version: 7
 ;; Keywords: lisp
-;; Package-Requires: ((thom-ido "1")(thom-mac "1")(thom-text "1")(thom-clojure "3"))
+;; Package-Requires: ((thom-ido "1")(thom-mac "1")(thom-text "1")(thom-clojure "4"))
 
 ;;; Code:
 

@@ -1,6 +1,6 @@
 (1
  (thom .
-       [(6)
+       [(7)
 	((thom-ido
 	  (1))
 	 (thom-mac
@@ -8,7 +8,7 @@
 	 (thom-text
 	  (1))
 	 (thom-clojure
-	  (3)))
+	  (4)))
 	"Thom's emacs config" single])
  (thom-clojure .
 	       [(4)
