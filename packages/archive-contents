@@ -11,9 +11,9 @@
 	  (3)))
 	"Thom's emacs config" single])
  (thom-clojure .
-	       [(3)
+	       [(4)
 		((cider
-		  (0 6 0))
+		  (0 7 0))
 		 (paredit
 		  (22)))
 		"Thom's emacs config for clojure" single])

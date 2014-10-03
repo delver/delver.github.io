@@ -5,9 +5,9 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-clojure.el
 ;; Created: 30th September 2014
-;; Version: 3
+;; Version: 4
 ;; Keywords: lisp
-;; Package-Requires: ((cider "0.6.0")(paredit "22"))
+;; Package-Requires: ((cider "0.7.0")(paredit "22"))
 
 ;;; Code:
 
