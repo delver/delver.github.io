@@ -1,9 +1,7 @@
 (1
  (thom .
-       [(7)
+       [(8)
 	((thom-ido
-	  (1))
-	 (thom-mac
 	  (1))
 	 (thom-text
 	  (1))
