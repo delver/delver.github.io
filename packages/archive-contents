@@ -1,6 +1,6 @@
 (1
  (thom .
-       [(9)
+       [(10)
 	((thom-ido
 	  (1))
 	 (thom-text
