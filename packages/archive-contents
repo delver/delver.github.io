@@ -1,15 +1,15 @@
 (1
  (thom-company .
-	       [(1)
+	       [(2)
 		((company
 		  (0 8 6 -3)))
 		"Thom's emacs config for company mode" single])
  (thom .
-       [(11)
+       [(12)
 	((thom-ido
 	  (3))
 	 (thom-company
-	  (1))
+	  (2))
 	 (thom-text
 	  (1))
 	 (thom-clojure
