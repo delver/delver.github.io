@@ -5,35 +5,39 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-package.el
 ;; Created: 30th September 2014
-;; Version: 8
+;; Version: 10
 ;; Keywords: lisp
 ;; Package-Requires: ()
 
 ;;; Code:
 
-(require 'package-x)
-(require 'lisp-mnt)
-
+;;;###autoload
 (defun version ()
+  (require 'lisp-mnt)
   (or (lm-header "package-version")
       (lm-header "version")))
 
+;;;###autoload
 (defun delete-previous-version ()
-  (when (version)
-   (let* ((base (file-name-base (buffer-file-name)))
-	  (old-version-filename (concat base "-" (lm-header "version") ".el")))
-     (when (file-exists-p old-version-filename)
-       (delete-file old-version-filename)))))
+  (let ((old (version)))
+   (when old
+     (let* ((base (file-name-base (buffer-file-name)))
+	    (old-version-filename (concat base "-" old ".el")))
+       (when (file-exists-p old-version-filename)
+	 (delete-file old-version-filename))))))
 
+;;;###autoload
 (defun bump-version ()
-  (when (version)
-   (save-excursion
-     (let ((old (lm-header "version")))
+  (save-excursion
+    (let ((old (version)))
+      (when old
        (replace-match (number-to-string (1+ (string-to-number old))))))))
 
+;;;###autoload
 (defun update-package-archive ()
   "Update the current package archive with the changes in buffer."
   (when (version)
+    (require 'package-x)
     (setq-local package-archive-upload-base (file-name-directory (buffer-file-name)))
     (package-upload-buffer)))
 
