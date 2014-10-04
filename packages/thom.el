@@ -5,9 +5,9 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom.el
 ;; Created: 30th September 2014
-;; Version: 13
+;; Version: 14
 ;; Keywords: lisp
-;; Package-Requires: ((linum-off "0.1")(sublime-themes "20140920.500"))
+;; Package-Requires: ((linum-off "0.1"))
 
 ;;; Code:
 
@@ -30,7 +30,6 @@
   (display-time)
   (display-battery-mode)
   (set-face-attribute 'default nil :height 100)
-  (require 'sublime-themes)
-  (load-theme 'spolsky))
+  (load-theme 'misterioso))
 
 ;;; thom.el ends here
