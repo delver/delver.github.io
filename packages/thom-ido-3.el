@@ -5,9 +5,9 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-ido.el
 ;; Created: 30th September 2014
-;; Version: 2
+;; Version: 3
 ;; Keywords: lisp
-;; Package-Requires: ((smex "3.0")(ido-ubiquitous "2.15")(ido-yes-or-no-mode "1.1"))
+;; Package-Requires: ((smex "3.0")(ido-ubiquitous "2.15")(ido-yes-or-no "1.1"))
 
 ;;; Code:
 

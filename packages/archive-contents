@@ -28,12 +28,12 @@
 	   [(1)
 	    nil "Thom's emacs config for Macs" single])
  (thom-ido .
-	   [(2)
+	   [(3)
 	    ((smex
 	      (3 0))
 	     (ido-ubiquitous
 	      (2 15))
-	     (ido-yes-or-no-mode
+	     (ido-yes-or-no
 	      (1 1)))
 	    "Thom's emacs config for ido" single])
  (thom-text .
