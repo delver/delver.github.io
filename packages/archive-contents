@@ -1,6 +1,16 @@
 (1
+ (thom-elisp .
+	     [(1)
+	      ((paredit
+		(22))
+	       (rainbow-blocks
+		(0 1)))
+	      "Thom's elisp library" single])
+ (thom-package .
+	       [(8)
+		nil "Thom's emacs package management utilities" single])
  (thom-company .
-	       [(2)
+	       [(3)
 		((company
 		  (0 8 6 -3)))
 		"Thom's emacs config for company mode" single])
@@ -18,7 +28,7 @@
 	  (0 1)))
 	"Thom's emacs config" single])
  (thom-clojure .
-	       [(5)
+	       [(6)
 		((cider
 		  (0 7 0))
 		 (paredit

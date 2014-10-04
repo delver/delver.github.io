@@ -5,7 +5,7 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom.el
 ;; Created: 30th September 2014
-;; Version: 2
+;; Version: 3
 ;; Keywords: lisp
 ;; Package-Requires: ((company "0.8.6-cvs"))
 
@@ -14,17 +14,14 @@
 ;;;###autoload
 (progn
   (global-company-mode)
-  (setq company-idle-delay t)
+  (setq company-idle-delay 0)
   (setq company-minimum-prefix-length 2)
   (setq company-auto-complete t)
-  (setq company-auto-complete-chars "\t(){}[],.:")
+  (setq company-auto-complete-chars "(){}[],.:")
   (define-key company-active-map (kbd "C-n") 'company-select-next)
   (define-key company-active-map (kbd "C-p") 'company-select-previous)
-  (define-key company-active-map [tab] nil)
-  (define-key company-active-map (kbd "TAB") nil)
-  (define-key company-active-map (kbd "S-space") 'company-complete-common))
-
-  
-
+  (define-key company-active-map [tab] 'company-complete)
+  (define-key company-active-map (kbd "TAB") 'company-complete)
+  (define-key company-active-map (kbd "S-SPC") 'company-complete-common))
 
 ;;; thom-company.el ends here

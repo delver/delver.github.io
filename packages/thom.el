@@ -7,7 +7,7 @@
 ;; Created: 30th September 2014
 ;; Version: 12
 ;; Keywords: lisp
-;; Package-Requires: ((thom-ido "3")(thom-company "2")(thom-text "1")(thom-clojure "5")(linum-off "0.1"))
+;; Package-Requires: ((linum-off "0.1"))
 
 ;;; Code:
 
