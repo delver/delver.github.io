@@ -5,9 +5,9 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom.el
 ;; Created: 30th September 2014
-;; Version: 10
+;; Version: 11
 ;; Keywords: lisp
-;; Package-Requires: ((thom-ido "1")(thom-text "1")(thom-clojure "4")(linum-off "0.1"))
+;; Package-Requires: ((thom-ido "3")(thom-company "1")(thom-text "1")(thom-clojure "5")(linum-off "0.1"))
 
 ;;; Code:
 
@@ -27,6 +27,8 @@
   (menu-bar-mode -1)
   (scroll-bar-mode -1)
   (tool-bar-mode -1)
+  (display-time)
+  (display-battery-mode)
   (set-face-attribute 'default nil :height 100))
 
 ;;; thom.el ends here

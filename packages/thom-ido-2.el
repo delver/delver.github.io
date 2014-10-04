@@ -5,19 +5,21 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-ido.el
 ;; Created: 30th September 2014
-;; Version: 1
+;; Version: 2
 ;; Keywords: lisp
-;; Package-Requires: ((smex "3.0"))
+;; Package-Requires: ((smex "3.0")(ido-ubiquitous "2.15")(ido-yes-or-no-mode "1.1"))
 
 ;;; Code:
 
-(require 'ido)
-(require 'smex)
 
 ;;;###autoload
 (progn
+  (require 'ido)
   (ido-mode t)
   (setq ido-enable-flex-matching t)
+  (ido-ubiquitous)
+  (ido-yes-or-no-mode)
+  (require 'smex)
   (smex-initialize)
   (global-set-key (kbd "M-x") 'smex)
   (global-set-key (kbd "M-X") 'smex-major-mode-commands))

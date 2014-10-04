@@ -1,17 +1,24 @@
 (1
+ (thom-company .
+	       [(1)
+		((company
+		  (0 8 6 -3)))
+		"Thom's emacs config for company mode" single])
  (thom .
-       [(10)
+       [(11)
 	((thom-ido
+	  (3))
+	 (thom-company
 	  (1))
 	 (thom-text
 	  (1))
 	 (thom-clojure
-	  (4))
+	  (5))
 	 (linum-off
 	  (0 1)))
 	"Thom's emacs config" single])
  (thom-clojure .
-	       [(4)
+	       [(5)
 		((cider
 		  (0 7 0))
 		 (paredit
@@ -21,9 +28,13 @@
 	   [(1)
 	    nil "Thom's emacs config for Macs" single])
  (thom-ido .
-	   [(1)
+	   [(2)
 	    ((smex
-	      (3 0)))
+	      (3 0))
+	     (ido-ubiquitous
+	      (2 15))
+	     (ido-yes-or-no-mode
+	      (1 1)))
 	    "Thom's emacs config for ido" single])
  (thom-text .
 	    [(1)
