@@ -7,7 +7,7 @@
 		(0 1)))
 	      "Thom's elisp library" single])
  (thom-package .
-	       [(13)
+	       [(14)
 		nil "Thom's emacs package management utilities" single])
  (thom-company .
 	       [(3)
