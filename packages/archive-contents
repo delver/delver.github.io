@@ -1,12 +1,14 @@
 (1
  (thom .
-       [(8)
+       [(9)
 	((thom-ido
 	  (1))
 	 (thom-text
 	  (1))
 	 (thom-clojure
-	  (4)))
+	  (4))
+	 (linum-off
+	  (0 1)))
 	"Thom's emacs config" single])
  (thom-clojure .
 	       [(4)
