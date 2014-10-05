@@ -5,13 +5,11 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-clojure.el
 ;; Created: 30th September 2014
-;; Version: 8
+;; Version: 9
 ;; Keywords: lisp
 ;; Package-Requires: ((cider "0.7.0")(paredit "22")(rainbow-blocks "0.1"))
 
 ;;; Code:
-
-
 
 ;;;###autoload
 (progn
@@ -22,7 +20,7 @@
 	    (lambda ()
 	      (add-hook 'after-save-hook 
 			(lambda ()
-			  (when (bound-and-true-p 'cider-mode)
+			  (when (bound-and-true-p cider-mode)
 			    (cider-load-current-buffer)))
 			nil t)))
   (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
