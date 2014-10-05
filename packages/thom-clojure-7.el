@@ -5,16 +5,20 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-clojure.el
 ;; Created: 30th September 2014
-;; Version: 6
+;; Version: 7
 ;; Keywords: lisp
-;; Package-Requires: ((cider "0.7.0")(paredit "22"))
+;; Package-Requires: ((cider "0.7.0")(paredit "22")(rainbow-blocks "0.1"))
 
 ;;; Code:
+
+
 
 ;;;###autoload
 (progn
   (add-hook 'clojure-mode-hook 'paredit-mode)
   (add-hook 'clojure-mode-hook 'rainbow-blocks-mode)
+  (add-hook 'clojure-mode-hook 'show-paren-mode)
+  (add-hook 'clojure-mode-hook (lambda () (add-hook 'after-save-hook 'cider-load-current-buffer nil t)))
   (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
   (setq nrepl-hide-special-buffers t)
   (setq cider-repl-use-clojure-font-lock t)
