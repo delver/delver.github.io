@@ -5,7 +5,7 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-clojure.el
 ;; Created: 30th September 2014
-;; Version: 9
+;; Version: 10
 ;; Keywords: lisp
 ;; Package-Requires: ((cider "0.7.0")(paredit "22")(rainbow-blocks "0.1"))
 
@@ -24,6 +24,9 @@
 			    (cider-load-current-buffer)))
 			nil t)))
   (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
+  (add-hook 'cider-repl-mode-hook
+	    (lambda ()
+	      (global-set-key (kbd "C-c r") 'cider-switch-to-repl-buffer)))
   (setq nrepl-hide-special-buffers t)
   (setq cider-repl-use-clojure-font-lock t)
   (setq cider-repl-history-file "~/.repl-history"))

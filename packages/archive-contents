@@ -20,7 +20,7 @@
 	  (0 1)))
 	"Thom's emacs config" single])
  (thom-clojure .
-	       [(9)
+	       [(10)
 		((cider
 		  (0 7 0))
 		 (paredit
