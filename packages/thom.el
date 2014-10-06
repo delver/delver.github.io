@@ -5,7 +5,7 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom.el
 ;; Created: 30th September 2014
-;; Version: 14
+;; Version: 15
 ;; Keywords: lisp
 ;; Package-Requires: ((linum-off "0.1"))
 
@@ -30,6 +30,12 @@
   (display-time)
   (display-battery-mode)
   (set-face-attribute 'default nil :height 100)
-  (load-theme 'misterioso))
+  (load-theme 'misterioso)
+  (global-set-key (kbd "C-S-b") 'windmove-left)
+  (global-set-key (kbd "C-S-f") 'windmove-right)
+  (global-set-key (kbd "C-S-p") 'windmove-up)
+  (global-set-key (kbd "C-S-n") 'windmove-down)
+  (setq windmove-wrap-around t)
+  (require 'thingatpt))
 
 ;;; thom.el ends here
