@@ -1,4 +1,7 @@
 (1
+ (thom-linux .
+	     [(3)
+	      nil "Thom's emacs config for Linux" single])
  (thom-elisp .
 	     [(1)
 	      ((paredit

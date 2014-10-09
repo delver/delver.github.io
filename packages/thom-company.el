@@ -15,7 +15,7 @@
 (progn
   (global-company-mode)
   (setq company-idle-delay 0)
-  (setq company-minimum-prefix-length 2)
+  (setq company-minimum-prefix-length 3)
   (setq company-auto-complete t)
   (setq company-auto-complete-chars "(){}[],.:")
   (define-key company-active-map (kbd "C-n") 'company-select-next)
