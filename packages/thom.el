@@ -5,9 +5,9 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom.el
 ;; Created: 30th September 2014
-;; Version: 16
+;; Version: 18
 ;; Keywords: lisp
-;; Package-Requires: ((linum-off "0.1"))
+;; Package-Requires: ((linum-off "0.1")(vlf "1.7"))
 
 ;;; Code:
 

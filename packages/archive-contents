@@ -18,9 +18,11 @@
 		  (0 8 6 -3)))
 		"Thom's emacs config for company mode" single])
  (thom .
-       [(16)
+       [(18)
 	((linum-off
-	  (0 1)))
+	  (0 1))
+	 (vlf
+	  (1 7)))
 	"Thom's emacs config" single])
  (thom-clojure .
 	       [(10)
