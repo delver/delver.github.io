@@ -18,7 +18,7 @@
 		  (0 8 6 -3)))
 		"Thom's emacs config for company mode" single])
  (thom .
-       [(15)
+       [(16)
 	((linum-off
 	  (0 1)))
 	"Thom's emacs config" single])
