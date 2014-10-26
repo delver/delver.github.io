@@ -13,7 +13,7 @@
 	       [(14)
 		nil "Thom's emacs package management utilities" single])
  (thom-company .
-	       [(3)
+	       [(4)
 		((company
 		  (0 8 6 -3)))
 		"Thom's emacs config for company mode" single])
@@ -25,13 +25,15 @@
 	  (1 7)))
 	"Thom's emacs config" single])
  (thom-clojure .
-	       [(10)
+	       [(12)
 		((cider
 		  (0 7 0))
 		 (paredit
 		  (22))
 		 (rainbow-blocks
-		  (0 1)))
+		  (0 1))
+		 (aggressive-indent
+		  (0 3)))
 		"Thom's emacs config for clojure" single])
  (thom-mac .
 	   [(1)
