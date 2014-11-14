@@ -5,14 +5,16 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-clojure.el
 ;; Created: 30th September 2014
-;; Version: 13
+;; Version: 14
 ;; Keywords: lisp
-;; Package-Requires: ((cider "0.7.0")(paredit "22")(rainbow-blocks "0.1")(aggressive-indent "0.3"))
+;; Package-Requires: ((cider "0.8.0")(paredit "22")(rainbow-blocks "0.1")(aggressive-indent "0.3"))
 
 ;;; Code:
 
 ;;;###autoload
 (progn
+  (require 'cider)
+  (require 'cider-interaction)
   (add-hook 'clojure-mode-hook 'paredit-mode)
   (add-hook 'clojure-mode-hook 'rainbow-blocks-mode)
   (add-hook 'clojure-mode-hook 'show-paren-mode)
