@@ -5,7 +5,7 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-mac.el
 ;; Created: 30th September 2014
-;; Version: 1
+;; Version: 2
 ;; Keywords: lisp
 ;; Package-Requires: ()
 
@@ -32,6 +32,6 @@
   (global-set-key [(hyper q)] 'save-buffers-kill-terminal)
   (global-set-key [(hyper return)] 'toggle-fullscreen)
   (global-set-key (kbd "M-3") (lambda() (interactive) (insert-string "#")))
-  (set-variable 'magit-emacsclient-executable "/usr/local/Cellar/emacs-mac/emacs-24.3-mac-4.8/bin/emacsclient"))
+  (set-variable 'magit-emacsclient-executable "/usr/local/bin/emacsclient"))
 
 ;;; thom-mac.el ends here

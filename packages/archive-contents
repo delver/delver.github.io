@@ -36,8 +36,9 @@
 		  (0 3)))
 		"Thom's emacs config for clojure" single])
  (thom-mac .
-	   [(1)
-	    nil "Thom's emacs config for Macs" single])
+	   [(2)
+	    nil "Thom's emacs config for Macs" single
+	    ((:url . "http://github.com/delver/delver.github.io/packages/thom-mac.el"))])
  (thom-ido .
 	   [(3)
 	    ((smex
