@@ -25,9 +25,9 @@
 	  (1 7)))
 	"Thom's emacs config" single])
  (thom-clojure .
-	       [(14)
+	       [(15)
 		((cider
-		  (0 7 0))
+		  (0 8 0))
 		 (paredit
 		  (22))
 		 (rainbow-blocks
