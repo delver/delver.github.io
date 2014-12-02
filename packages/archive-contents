@@ -1,4 +1,17 @@
 (1
+ (thom-occur .
+	     [(2)
+	      (("color-moccur"
+		(2 71))
+	       ("moccur-edit"
+		(2 16)))
+	      "Thom's occur config" single
+	      ((:url . "http://github.com/delver/delver.github.io/packages/thom-occur.el"))])
+ (moccur-edit .
+	      [(2 16)
+	       (("color-moccur"
+		 (2 71)))
+	       "apply replaces to multiple files" single nil])
  (thom-linux .
 	     [(3)
 	      nil "Thom's emacs config for Linux" single])
