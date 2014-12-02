@@ -1,8 +1,8 @@
 (1
  (thom-occur .
-	     [(4)
+	     [(8)
 	      (("color-moccur"
-		(20141108))
+		(2 71))
 	       ("moccur-edit"
 		(2 16)))
 	      "Thom's occur config" single

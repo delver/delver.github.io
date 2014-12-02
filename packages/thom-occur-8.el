@@ -5,9 +5,9 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom-occur.el
 ;; Created: 2nd December 2014
-;; Version: 4
+;; Version: 8
 ;; Keywords: lisp
-;; Package-Requires: (("color-moccur" "20141108")("moccur-edit" "2.16"))
+;; Package-Requires: (("color-moccur" "2.71")("moccur-edit" "2.16"))
 
 ;;; Code:
 
