@@ -5,7 +5,7 @@
 ;; Maintainer: Thom Lawrence <thom@delver.io>
 ;; URL: http://github.com/delver/delver.github.io/packages/thom.el
 ;; Created: 30th September 2014
-;; Version: 18
+;; Version: 19
 ;; Keywords: lisp
 ;; Package-Requires: ((linum-off "0.1")(vlf "1.7"))
 
@@ -37,6 +37,7 @@
   (setq windmove-wrap-around t)
   (require 'thingatpt)
   (require 'vlf-integrate)
-  (setq vlf-application 'dont-ask))
+  (setq vlf-application 'dont-ask)
+  (setq-default buffer-file-coding-system 'utf-8-unix))
 
 ;;; thom.el ends here

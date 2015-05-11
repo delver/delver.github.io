@@ -31,12 +31,13 @@
 		  (0 8 6 -3)))
 		"Thom's emacs config for company mode" single])
  (thom .
-       [(18)
+       [(19)
 	((linum-off
 	  (0 1))
 	 (vlf
 	  (1 7)))
-	"Thom's emacs config" single])
+	"Thom's emacs config" single
+	((:url . "http://github.com/delver/delver.github.io/packages/thom.el"))])
  (thom-clojure .
 	       [(15)
 		((cider
